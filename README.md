@@ -1,9 +1,7 @@
-```md
-# 🚀 SoftSell – Responsive Marketing Website
+ 🚀 SoftSell – Responsive Marketing Website
 
 A responsive, single-page marketing website built for the fictional software resale startup **SoftSell** as part of the Redex Web Development Internship assignment.
 
----
 
 ## 🧩 Features Implemented
 
