@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Perfect! Here's a professional `README.md` you can include in your GitHub repo for the **SoftSell** assignment:
 
-## Getting Started
+---
 
-First, run the development server:
+```md
+# 🚀 SoftSell – Responsive Marketing Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+A responsive, single-page marketing website built for the fictional software resale startup **SoftSell** as part of the Redex Web Development Internship assignment.
+
+---
+
+## 🧩 Features Implemented
+
+- ✅ **Hero Section**  
+  - headline, subheading, and CTA ("Sell My Licenses")
+
+- ✅ **How It Works**  
+  - Visual step-by-step process: Upload License → Get Valuation → Get Paid
+
+- ✅ **Why Choose Us**  
+  - 3–4 trust-building points with icons and short descriptions
+
+- ✅ **Customer Testimonials**  
+  - 2 dummy reviews with name, role, and company
+
+- ✅ **Contact Form**  
+  - Fields: Name, Email, Company, License Type (dropdown), and Message  
+  - Includes frontend validation
+- ✅ **Chat Widget**  
+  - Simple static widget with pre-defined FAQ-like messages
+
+
+- ✅ **Responsive Design**  
+  - Works across mobile, tablet, and desktop
+
+---
+## 🎨 Design Choices
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) for utility-first design and responsiveness
+- **Animations**: Minimal transitions using Tailwind classes
+- **Layout**: Single-page structure for fast and easy navigation
+- **Typography**: Clean sans-serif font stack for modern aesthetic
+- **Icons**: Used via open-source icons (e.g., Lucide or Heroicons)
+
+---
+
+## 🌐 Live Demo
+
+👉 [https://Neha-Waddi.github.io/soft-sell](https://Neha-Waddi.github.io/soft-sell)
+
+
+## 📁 Folder Structure
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+src/
+├── app/
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── HowItWorks.jsx
+│   │   ├── WhyChooseUs.jsx
+│   │   ├── Testimonials.jsx
+│   │   ├── ContactForm.jsx
+│   │   └── ChatWidget.jsx
+│   └── page.js
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+````
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔧 Local Development
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm install
+npm run dev
+````
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Deploy to GitHub Pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+npm run deploy
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📌 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Neha Waddi**
+[GitHub Profile](https://github.com/Neha-Waddi)
+
+---
