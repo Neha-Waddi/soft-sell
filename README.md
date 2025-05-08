@@ -1,7 +1,3 @@
-Perfect! Here's a professional `README.md` you can include in your GitHub repo for the **SoftSell** assignment:
-
----
-
 ```md
 # 🚀 SoftSell – Responsive Marketing Website
 
